@@ -15,7 +15,6 @@
     </h1>
   </body>
   <script>
-    timer = 0
     setInterval(function(){
 	     temp = Math.random()
 	    if(temp<.8){
@@ -24,10 +23,6 @@
 	    else{
 		    document.getElementById("yeet").innerHTML = document.getElementById("yeet").innerHTML + "g"; 
 	    }
-      timer++
-      if(timer%10 == 0){
-  	    document.getElementById("yeet").innerHTML = document.getElementById("yeet").innerHTML + "<b>"
-      }
     },20)
   </script>
 </html>
